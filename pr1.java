@@ -6,7 +6,7 @@ import java.util.*;
 
 public class pr1 {
     /**
-     * printsatements
+     * printstatements
      * public static void main(String[] args) {
      * // System.out.println("hello World");
      * // System.out.println("hello wWorld");
