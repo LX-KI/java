@@ -3,7 +3,7 @@
  */
 
 public class pr1 {
-    /**
+    /**printsatements
      * public static void main(String[] args) {
      * // System.out.println("hello World");
      * // System.out.println("hello wWorld");
@@ -17,8 +17,11 @@ public class pr1 {
      * }
      * }
      */
-    public static void main(String[] args) {
+   /** variables 
+    * public static void main(String[] args) {
         int a = 223; // variable
         System.out.println(a);
     }
 }
+ */
+a
