@@ -147,25 +147,60 @@ public class pr1 {
 
     // PRINT THE SUM OF N NATURAL NO.
 
-   /*
-   public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int sum = 0;
-        for (int i = 0; i <= n; i++) {
-            sum = sum + i;
+    /*
+     * public static void main(String[] args) {
+     * Scanner sc = new Scanner(System.in);
+     * int n = sc.nextInt();
+     * int sum = 0;
+     * for (int i = 0; i <= n; i++) {
+     * sum = sum + i;
+     * }
+     * System.out.println(sum);
+     * }
+     * }
+     */
+    // print the table of a no , input by the user
+    /**
+     * public static void main(String[] args) {
+     * Scanner sc = new Scanner(System.in);
+     * int n = sc.nextInt();
+     * for (int i = 1; i <= 10; i++) {
+     * System.out.println(n + " * " + i + " = " + (n * i));
+     * }
+     * 
+     * }
+     */
+
+    // solid rectangle
+    /**
+     * public static void main(String[] args) {
+     * int n=4;
+     * int m=5;
+     * 
+     * for(int i=1;i<=n;i++){
+     * for(int j=1;j<=m;j++){
+     * System.out.print("*");
+     * }
+     * System.out.println();
+     * }
+     * }
+     * }
+     */
+
+    /* hollow rectangle */
+    public static void main(String[] args) {
+        int n = 4;
+        int m = 5;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (i == 1 || j == 1 || i == n || j == m) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+
         }
-        System.out.println(sum);
     }
-} */ 
-   // print the table of a no , input by the user
-
-   public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-       int n = sc.nextInt();
-       for (int i = 1; i <= 10; i++) {
-           System.out.println(n + " * " + i + " = " + (n * i));
-       }
-
-   }
 }
