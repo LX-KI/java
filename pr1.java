@@ -82,7 +82,46 @@ public class pr1 {
      * }
      * }
      */
-    /**
+    /**SWITCH _MONTH
+     * import java.util.*;
+class Pr2{
+public static void main(String[]args){
+Scanner sc= new Scanner(System.in);{
+System.out.println("enter the number of the month");
+int month=sc.nextInt();
+switch(month){
+	case 1 :System.out.println("jan");
+break;
+	case 2 :System.out.println("feb");
+break;
+ 	case 3 :System.out.println("mar");
+break;
+	case 4 :System.out.println("april");
+break;
+	case 5 :System.out.println("may");
+break;
+	case 6 :System.out.println("june");
+break;
+	case 7 :System.out.println("july");
+break;
+	case 8 :System.out.println("aug");
+break;
+	case 9 :System.out.println("sep");
+break;
+	case 10 :System.out.println("oct");
+break;
+	case 11 :System.out.println("Nov");
+break;
+	case 12 :System.out.println("dec");
+break;
+default :System.out.println("invalid numb");
+break;
+}
+}
+}
+}
+  
+* 
      * switch statements
      * 
      * public static void main(String[] args) {
@@ -121,8 +160,7 @@ public class pr1 {
      * }
      * }
      */
-
-    /**
+     /**
      * LOOPS
      * 
      * 
@@ -217,7 +255,20 @@ public class pr1 {
         }
     }
 */
+/* Floyd's triangle
+public static void main(String[] args) {
+int n=5;
+int num=1;
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=i;j++){
+		    System.out.print(num + " ");
+		num++;		}
+		System.out.println();
+	}*/
+   /* */ 
+    
 
+}
 
 
 
