@@ -3,10 +3,9 @@
  * pr1
  */
 // import java.util.*;
-
+//import java.util.*;
 public class pr1 {
-    /**
-     * printstatements
+    /** printstatements
      * public static void main(String[] args) {
      * // System.out.println("hello World");
      * // System.out.println("hello wWorld");
@@ -20,16 +19,14 @@ public class pr1 {
      * }
      * }
      */
-    /**
-     * variables
+    /**variables
      * public static void main(String[] args) {
      * int a = 223; // variable
      * System.out.println(a);
      * }
      * }
      */
-    /**
-     * scanner
+    /**scanner
      * 
      * 
      * public static void main(String[] args) {
@@ -44,8 +41,7 @@ public class pr1 {
      * }
      * }
      **/
-    /**
-     * Conditional statements ex1
+    /**Conditional statements ex1
      * public static void main (String[] args)
      * {
      * Scanner sc = new Scanner(System.in);
@@ -61,8 +57,8 @@ public class pr1 {
      * }
      * }
      */
-    /**
-     * Conditional statements ex2
+    /**Conditional statements ex2
+     * 
      * public static void main(String[] args) {
      * Scanner sc = new Scanner(System.in);
      * System.out.println("Enter the value of a:");
@@ -82,46 +78,46 @@ public class pr1 {
      * }
      * }
      */
-    /**SWITCH _MONTH
+    /*  SWITCH _MONTH
      * import java.util.*;
-class Pr2{
-public static void main(String[]args){
-Scanner sc= new Scanner(System.in);{
-System.out.println("enter the number of the month");
-int month=sc.nextInt();
-switch(month){
-	case 1 :System.out.println("jan");
-break;
-	case 2 :System.out.println("feb");
-break;
- 	case 3 :System.out.println("mar");
-break;
-	case 4 :System.out.println("april");
-break;
-	case 5 :System.out.println("may");
-break;
-	case 6 :System.out.println("june");
-break;
-	case 7 :System.out.println("july");
-break;
-	case 8 :System.out.println("aug");
-break;
-	case 9 :System.out.println("sep");
-break;
-	case 10 :System.out.println("oct");
-break;
-	case 11 :System.out.println("Nov");
-break;
-	case 12 :System.out.println("dec");
-break;
-default :System.out.println("invalid numb");
-break;
-}
-}
-}
-}
-  
-* 
+     * class Pr2{
+     * public static void main(String[]args){
+     * Scanner sc= new Scanner(System.in);{
+     * System.out.println("enter the number of the month");
+     * int month=sc.nextInt();
+     * switch(month){
+     * case 1 :System.out.println("jan");
+     * break;
+     * case 2 :System.out.println("feb");
+     * break;
+     * case 3 :System.out.println("mar");
+     * break;
+     * case 4 :System.out.println("april");
+     * break;
+     * case 5 :System.out.println("may");
+     * break;
+     * case 6 :System.out.println("june");
+     * break;
+     * case 7 :System.out.println("july");
+     * break;
+     * case 8 :System.out.println("aug");
+     * break;
+     * case 9 :System.out.println("sep");
+     * break;
+     * case 10 :System.out.println("oct");
+     * break;
+     * case 11 :System.out.println("Nov");
+     * break;
+     * case 12 :System.out.println("dec");
+     * break;
+     * default :System.out.println("invalid numb");
+     * break;
+     * }
+     * }
+     * }
+     * }
+     * 
+     * 
      * switch statements
      * 
      * public static void main(String[] args) {
@@ -160,8 +156,7 @@ break;
      * }
      * }
      */
-     /**
-     * LOOPS
+    /**LOOPS
      * 
      * 
      * public static void main(String[] args) {
@@ -171,9 +166,7 @@ break;
      * }
      * }
      */
-
-    /**
-     * While loop
+    /** While loop
      * public static void main(String[] args) {
      * int i = 0;
      * while (i <= 10) {
@@ -182,10 +175,7 @@ break;
      * }
      * }
      */
-
-    // PRINT THE SUM OF N NATURAL NO.
-
-    /*
+    /*PRINT THE SUM OF N NATURAL NO.
      * public static void main(String[] args) {
      * Scanner sc = new Scanner(System.in);
      * int n = sc.nextInt();
@@ -197,8 +187,7 @@ break;
      * }
      * }
      */
-    // print the table of a no , input by the user
-    /**
+    /** print the table of a no , input by the user
      * public static void main(String[] args) {
      * Scanner sc = new Scanner(System.in);
      * int n = sc.nextInt();
@@ -207,10 +196,8 @@ break;
      * }
      * 
      * }
-     */
-
-    // solid rectangle
-    /**
+     */ 
+    /**solid rectangle
      * public static void main(String[] args) {
      * int n=4;
      * int m=5;
@@ -224,9 +211,7 @@ break;
      * }
      * }
      */
-
-    /*
-     * hollow rectangle
+    /*hollow rectangle
      * public static void main(String[] args) {
      * int n = 4;
      * int m = 5;
@@ -243,33 +228,73 @@ break;
      * }
      * }
      */
-    /* half pyramid 
-    public static void main(String[] args) {
-        int n = 4;
+    /* * half pyramid
+     * public static void main(String[] args) {
+     * int n = 4;
+     * 
+     * for (int i = n; i >= 1; i--) { //reverse this loop for the inverted pyramid//
+     * for (int j = 1; j <= i; j++) {
+     * System.out.print("*");
+     * }
+     * System.out.println("");
+     * }
+     * }
+     */
+    /*Floyd's triangle
+     * public static void main(String[] args) {
+     * int n=5;
+     * int num=1;
+     * for(int i=1;i<=n;i++){
+     * for(int j=1;j<=i;j++){
+     * System.out.print(num + " ");
+     * num++; }
+     * System.out.println();
+     * }
+     */
+    /*0-1 pyramid
+     * 
+     * public static void main(String[] args) {
+     * 
+     * 
+     * int n=5;
+     * for (int i=1;i<=n;i++){
+     * for (int j=1;j<=i;j++){
+     * int sum = i + j;
+     * if (sum % 2==0){
+     * System.out.print("1");
+     * }
+     * else{
+     * System.out.print("0");
+     * }
+     * }
+     * System.out.println("");
+     * }
+     * }
+     */
+    /**hw
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int input;
 
-        for (int i = n; i >= 1; i--) { //reverse this loop for the inverted pyramid//
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+        do {
+            int marks = sc.nextInt();
+            if (marks >= 90 && marks <= 100) {
+                System.out.println("This is Good");
+            } else if (marks >= 60 && marks <= 89) {
+                System.out.println("This is also Good");
+            } else if (marks >= 0 && marks <= 59) {
+                System.out.println("This is Good as well");
+            } else {
+                System.out.println("Invalid");
             }
-            System.out.println("");
-        }
+
+            System.out.println("Want to continue ? (yes(1) or no(0))");
+            input = sc.nextInt();
+
+        } while (input == 1);
     }
-*/
-/* Floyd's triangle
-public static void main(String[] args) {
-int n=5;
-int num=1;
-	for(int i=1;i<=n;i++){
-		for(int j=1;j<=i;j++){
-		    System.out.print(num + " ");
-		num++;		}
-		System.out.println();
-	}*/
-   /* */ 
-    
-
 }
-
+*/
 
 
 
