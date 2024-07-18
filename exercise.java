@@ -17,5 +17,6 @@ public class exercise {
         exercise ex = new exercise();
         System.out.println("average of three numbers is:");
         System.out.println(ex.average(a, b, c));
+        sc.close();
     }
 }
