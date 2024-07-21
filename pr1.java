@@ -317,6 +317,8 @@
 //         sc.close();
 //     }
 // }
+// classes and objects \
+// comes with states and behaviour//
 
 
 
